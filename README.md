@@ -48,24 +48,28 @@ For a detailed breakdown of the methodology, performance metrics, and full set o
 [📄 Quant Research Report (PDF)](Quant_Research_Report.pdf)
 ### Key Findings
 - **Cointegrated Pairs Found:** 2 (TFC‑USB, BAC‑PNC)  
-- **Best Performing Pair:** TFC‑USB with a Sharpe ratio of **0.87** and modest positive return of **+3.2% annualized**.  
-- **Weak Pair:** BAC‑PNC underperformed with negative returns and Sharpe ratio of **-0.17**.  
+- **Best Performing Pair:** TFC‑USB with a Sharpe ratio of **0.61** and CAGR of **6.3%**  
+- **Second Pair:** BAC‑PNC achieved a Sharpe ratio of **0.56** and CAGR of **8.1%**
 - **Portfolio Performance (Equal‑weighted):**
-  - Annualized Return: **~1.2%**
-  - Volatility: **2.9%**
-  - Sharpe Ratio: **0.41**
-  - Max Drawdown: **‑6.2%**
-  - Win Rate: **4.5%**
+  - CAGR: **7.8%**
+  - Annualised Mean: **~7.9%**
+  - Annualised Volatility: **9.3%**
+  - Sharpe Ratio: **0.85**
+  - Sortino Ratio: **1.46**
+  - Max Drawdown: **‑12.1%**
+  - Win Rate: **28.1%**
+
 
 ### Interpretation
-- The **TFC‑USB pair** displayed consistent mean‑reversion and generated reasonable excess return, albeit with limited magnitude.  
-- The **BAC‑PNC pair** was cointegrated historically but produced negative performance, suggesting instability in the spread during the test period.  
-- At the **portfolio level**, although returns were positive, risk‑adjusted performance (Sharpe 0.41) was relatively weak compared to industry benchmarks, highlighting the challenges of implementing pairs trading naïvely without refinements.
+- The TFC-USB pair provided the most stable mean-reversion performance with moderate drawdowns.
+- The BAC-PNC pair, while statistically cointegrated, exhibited higher volatility and drawdowns but still delivered positive returns.
+- At the portfolio level, performance was more attractive than the previous iteration, with a Sharpe ratio of 0.85. However, the relatively low win rate suggests that gains were achieved through a small number of strong trades rather than frequent small wins.
+
 
 ### Limitations
-- **Transaction Costs:** Not included in this backtest; they could further erode profitability.  
-- **Small Sample of Pairs:** Only 2 statistically significant pairs detected among 10 tickers; broader universes may yield more opportunities.  
-- **Stationarity Instability:** Historical cointegration relationships can break down over time, particularly in crisis periods.
+- Transaction Costs: Not included in this backtest; actual implementation would likely reduce performance.
+- Limited Universe: Only 2 cointegrated pairs were identified among 10 bank tickers; expanding to a larger universe could uncover stronger opportunities.
+- Instability of Cointegration: Relationships may break down in stress periods, making ongoing recalibration essential.
 
 ### Future Work
 - Incorporate more **sectors/universes** for robust pair detection.    
