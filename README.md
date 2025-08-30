@@ -19,10 +19,12 @@ It demonstrates skills in **time-series econometrics, trading strategy design, b
      - Exit when z ≈ 0.
   5. Backtest on single pairs and as a multi‑pair portfolio.
 - **Evaluation Metrics**:
-  - Annualized Return
-  - Volatility
+  - CAGR
+  - Annualised Mean
+  - Annualised Volatility
   - Sharpe Ratio
-  - Maximum Drawdown
+  - Sortino Ratio
+  - Max Drawdown
   - Win Rate
 
 ---
