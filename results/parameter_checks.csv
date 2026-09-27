@@ -1,0 +1,6 @@
+check,z_window,entry_z,total_return,cagr,annualised_mean,annualised_volatility,sharpe,sortino,max_drawdown,annualised_turnover,traded_notional,average_gross_exposure,max_gross_exposure,average_net_exposure,time_invested,completed_trades,win_rate,average_winner_usd,average_loser_usd,average_holding_intervals
+Baseline,60,2.0,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,
+40-close z-score,40,2.0,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,
+80-close z-score,80,2.0,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,
+Entry at 1.5,60,1.5,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,
+Entry at 2.5,60,2.5,0.0,0.0,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,

@@ -35,5 +35,64 @@
   "sortino_daily_target": 0.0,
   "annualisation_sessions": 252,
   "carry_day_count": "actual calendar days / 365",
-  "original_commit": "4cae5e7cbce6ad2bd851693fc9e0db6c1387922e"
+  "original_commit": "4cae5e7cbce6ad2bd851693fc9e0db6c1387922e",
+  "cost_scenarios": [
+    [
+      "No charges: gross reference",
+      0,
+      0,
+      0
+    ],
+    [
+      "0 bps execution; baseline carry",
+      0,
+      0.01,
+      0.05
+    ],
+    [
+      "Baseline",
+      5,
+      0.01,
+      0.05
+    ],
+    [
+      "10 bps execution; baseline carry",
+      10,
+      0.01,
+      0.05
+    ],
+    [
+      "Borrow/funding stress",
+      5,
+      0.03,
+      0.08
+    ]
+  ],
+  "parameter_checks": [
+    [
+      "Baseline",
+      60,
+      2.0
+    ],
+    [
+      "40-close z-score",
+      40,
+      2.0
+    ],
+    [
+      "80-close z-score",
+      80,
+      2.0
+    ],
+    [
+      "Entry at 1.5",
+      60,
+      1.5
+    ],
+    [
+      "Entry at 2.5",
+      60,
+      2.5
+    ]
+  ]
 }

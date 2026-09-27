@@ -1,1 +1,2 @@
-c:\Users\aghna\AppData\Local\Programs\Python\Python313\python.exe: No module named pytest
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                                          [100%][0m
+[32m[32m[1m15 passed[0m[32m in 3.24s[0m[0m

@@ -1,0 +1,1 @@
+trade_id,window,pair,direction,entry_signal_date,entry_date,exit_signal_date,exit_date,entry_z,exit_z,q_y,q_x,entry_y,entry_x,exit_y,exit_x,entry_equity,holding_intervals,calendar_days,exit_reason,gross_pnl,transaction_cost,borrow_cost,finance_cost,net_pnl
