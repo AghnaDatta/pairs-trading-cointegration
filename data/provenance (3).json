@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/AghnaDatta/pairs-trading-cointegration",
+  "reviewed_and_observed_head": "4cae5e7cbce6ad2bd851693fc9e0db6c1387922e",
+  "retrieved_date": "2026-09-26",
+  "original_file": "data/prices.csv",
+  "sha256": "60592195d877570a292af271879b8437fb6b924ce3bdd4ac8e5b0faeb26c8825",
+  "rows": 1905,
+  "first_date": "2018-01-02",
+  "last_date": "2025-07-31",
+  "source": "Yahoo Finance via original yfinance fetch_data(auto_adjust=True)",
+  "original_download_timestamp": "Unknown",
+  "original_transform": "drop all-missing rows; forward-fill",
+  "new_transform": "None; preserve bytes; reject bad input",
+  "currency": "USD",
+  "corporate_action_verification": "No raw closes or action records available",
+  "symbol_history": "TFC-labelled pre-December-2019 history interpreted as BB&T predecessor",
+  "limitations": [
+    "retrospective selected universe",
+    "irrecoverable original filling",
+    "adjusted-price synthetic units",
+    "no independent calendar or vendor audit"
+  ]
+}

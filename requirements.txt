@@ -1,9 +1,10 @@
-numpy==2.3.2
-pandas==2.3.1
-scipy==1.16.1
+# Tested with Python 3.12.14; use Python 3.12 for the closest reproduction.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
 statsmodels==0.14.5
-matplotlib==3.10.5
-seaborn==0.13.2
-yfinance==0.2.65
-jupyter
+matplotlib==3.10.8
+nbformat==5.10.4
+nbconvert==7.16.6
 ipykernel==6.30.1
+pytest==8.4.2

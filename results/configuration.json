@@ -1,0 +1,39 @@
+{
+  "tickers": [
+    "JPM",
+    "BAC",
+    "WFC",
+    "C",
+    "GS",
+    "MS",
+    "USB",
+    "PNC",
+    "TFC",
+    "BK"
+  ],
+  "formation_days": 504,
+  "trading_days": 126,
+  "slots": 2,
+  "initial_capital_usd": 100000.0,
+  "z_window": 60,
+  "trading": {
+    "entry_z": 2.0,
+    "exit_z": 0.5,
+    "stop_z": 3.5,
+    "max_hold": 20,
+    "gross_target": 0.8,
+    "max_gross": 1.0,
+    "cost_bps": 5.0,
+    "borrow_rate": 0.01,
+    "finance_rate": 0.05
+  },
+  "screening": "Bonferroni 5% across 45 pairs",
+  "adf": "constant; maxlag=10; AIC; levels p>0.05, differences p<0.05",
+  "cointegration": "Engle-Granger; alphabetical Y,X; constant; maxlag=10; AIC",
+  "execution": "Fixed units ordered at close t; next-close fill t+1",
+  "cash_rate": 0.0,
+  "sortino_daily_target": 0.0,
+  "annualisation_sessions": 252,
+  "carry_day_count": "actual calendar days / 365",
+  "original_commit": "4cae5e7cbce6ad2bd851693fc9e0db6c1387922e"
+}
